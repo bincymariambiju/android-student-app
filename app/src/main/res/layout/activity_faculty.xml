@@ -1,0 +1,66 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#00aabb"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="Faculty Name"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <TextView
+        android:text="Department"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:id="@+id/dept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <TextView
+        android:text="Designation"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:id="@+id/designation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <TextView
+        android:text="Mobile Number"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:id="@+id/fmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Submit"
+        android:id="@+id/fsubmit"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Back To Dashboard"
+        android:id="@+id/fbtd"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.AppCompatButton>
+</LinearLayout>
